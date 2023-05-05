@@ -1,0 +1,22 @@
+ul {
+  @apply grid grid-cols-5 gap-4 my-4;
+}
+
+li {
+  @apply flex items-center gap-6;
+}
+li[data-selected="true"] {
+  @apply bg-slate-600;
+} 
+
+h3 {
+  @apply text-4xl text-gray-500;
+}
+
+li > div{
+  @apply flex items-center gap-2;
+}
+
+li > div > button{
+  @apply flex flex-none items-center justify-center bg-gray-800 rounded w-5 h-5 text-zinc-400;
+}

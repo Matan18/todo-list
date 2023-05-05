@@ -1,0 +1,15 @@
+form {
+  @apply flex flex-col gap-2 rounded;
+}
+
+input:not([type="checkbox"]) {
+  @apply self-start rounded max-w-[300px] w-full bg-zinc-500 pl-2 placeholder-zinc-400 text-gray-200;
+}
+
+textarea {
+  @apply self-start rounded  w-full bg-zinc-500 pl-2 placeholder-zinc-400 text-gray-200;
+}
+
+button[type="submit"] {
+  @apply py-4 px-8 bg-blue-950 flex self-start rounded text-gray-400;
+}

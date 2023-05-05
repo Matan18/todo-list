@@ -1,0 +1,19 @@
+.detail {
+  @apply absolute top-1/2 left-1/2 w-1/2 h-1/2 -translate-x-1/2 -translate-y-1/2 bg-zinc-700 rounded-2xl p-8 flex flex-col items-stretch gap-4;
+}
+
+.detail header {
+  @apply flex justify-between;
+}
+
+.detail header h4 {
+  @apply text-3xl text-gray-400;
+}
+
+.detail header button {
+  @apply text-3xl text-gray-400 rounded bg-slate-950 h-9 w-9;
+}
+
+.detail span {
+  @apply text-gray-400 text-lg;
+}
