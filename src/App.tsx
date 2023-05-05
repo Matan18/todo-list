@@ -1,5 +1,7 @@
+import { CustomHooks } from "./CustomHooks";
+
 function App() {
-  return <div></div>;
+  return <CustomHooks />;
 }
 
 export default App;
