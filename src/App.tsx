@@ -1,7 +1,7 @@
-import { CustomHooks } from "./CustomHooks";
+import { ContextHook } from "./ContextHook";
 
 function App() {
-  return <CustomHooks />;
+  return <ContextHook />;
 }
 
 export default App;
