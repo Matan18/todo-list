@@ -1,7 +1,7 @@
-import { ContextHook } from "./ContextHook";
+import { Recoil } from "./Recoil";
 
 function App() {
-  return <ContextHook />;
+  return <Recoil />;
 }
 
 export default App;
