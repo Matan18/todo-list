@@ -22,7 +22,7 @@ export const TodoItem = ({ todo }: Props) => {
       <div>
         <input
           type="checkbox"
-          checked={todo.completed}
+          checked={!!todo.completed}
           onChange={handleChangeCompleted}
         />
         <button type="button" onClick={handleShowDetails}>

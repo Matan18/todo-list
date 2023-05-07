@@ -27,7 +27,7 @@ export const TodoItem = ({
       <div>
         <input
           type="checkbox"
-          checked={todo.completed}
+          checked={!!todo.completed}
           onChange={handleChangeCompleted}
         />
         <button type="button" onClick={handleShowDetails}>
